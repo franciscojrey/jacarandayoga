@@ -1,0 +1,56 @@
+* {
+    scroll-behavior: smooth;
+}
+
+:root {
+    /* FONTS */
+    --ff-lato: 'Lato';
+    --ff-opensans: 'Open Sans', sans-serif;
+}
+
+h2,h3,h4,h5,h6 {
+    font-weight:normal;
+}
+
+body, html {
+    margin:0px;
+}
+
+body {
+    background-color:rgba(216, 213, 213, 0.514);
+}
+
+#principal {
+    text-align:center;
+}
+
+#enviado_texto {
+    font-size:40px;
+    color:rgba(71, 212, 71, 0.726);
+    font-family: var(--ff-opensans);
+    margin-top:300px;
+    font-weight:bold;
+}
+
+#boton_volver {
+    margin-top: 20px;
+    padding: 10px 0;
+    width:350px;
+    border:0px;
+    font-family: var(--ff-lato);
+    color:rgba(65, 63, 63, 0.671);
+    background-color:rgba(204, 203, 203, 0.479);
+    margin-left:auto;
+    margin-right:auto;
+    font-size:20px;
+}
+
+#boton_volver:hover {
+    cursor:pointer;
+    background-color:rgba(65, 63, 63, 0.158);
+    transition: .4s ease all;
+}
+
+#boton_link {
+    text-decoration:none;
+}
